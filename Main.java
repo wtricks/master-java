@@ -1,6 +1,12 @@
-// first java program
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Hello World");
+        int firstValue = 1500;
+        int secondvalue = 1000;
+
+        // boolean isSame = firstValue != secondvalue;
+
+        boolean is = true && !false || true;
+
+        System.out.println(is); // true
     }
 }
