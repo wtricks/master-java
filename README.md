@@ -2,11 +2,9 @@
 
 Hi, This is [Anuj Kumar](https://github.com/wtricks). In this course, I'll teach you [Java](https://www.java.com) from very `basic to Advanced` level. I'm assuming that either you're `begineer` or don't have knowledge of codings.
 
-## Intro to coding.
-In this section we will walk throgh with `Intro to coding`, `Intro to Java`, `Short history of Java` `Installation process`, `Install editor` and a basic `Hello world program`.
-
-### Intro to coding
 If you have no knowledge of codings, don't worry. I will start from very basic like `Intro to coding`.
+
+## Intro to coding
 
 `Codings` means "We writes some instructions for the computer so that computer can generate desired output according to our instructions".
 
@@ -57,11 +55,23 @@ Like our own languages ex. Hindi, English, we follow its predefined syntax. Same
 
 In this course, We are learning Java that's why we will use Java Compiler. Every compliler has its own syntax, pros and cons. Whatever the complier you are going to use, you have to follow its predefined syntaxs.
 
-### Intro to Java
+## Intro to Java
 Java is one of most popular and widly used programming language. It is a object oriented. Java syntax are similar to C/C++. But is does not not support low level funtionallity like `pointer`. Java is used in all kinds of applications (Android is Java based), desktop applications, web applications, client-server applications, and many more.
 
-### Short histroy of Java.
+## Short histroy of Java.
 Java was developed by `James Gosling` at `Sun Microsystems_inc` in the year `1995`, later acquired by `Oracle Corporation`. Initialy it is release as `JDK 1.0` in `1996`, after it many version comes and now the latest version of Java is `JAVA 19` in `September 2022`.
 
-### Installation
+## Installation
 Installation of Java is very easy. Just go its official site and download latest version of it.
+
+## First Program of Java
+
+Create a file named `Main.java`. Here `.java` is a extension of Java. You are writing a program in Java. Your file name must be match with your class name.
+
+    public class Main {
+        public static void main(String[] args) {
+            System.out.print("Hello World");
+        }
+    }
+
+To run this program run `javac Main.java`, this will compile your code into Java Byte code. If there no error ocuured, then run `java Main` command to run your program. here `Main` is your file name.
